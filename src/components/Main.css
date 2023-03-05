@@ -1,0 +1,20 @@
+.field {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.field__row {
+    display: flex;    
+}
+
+.field__cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(189, 189, 189);
+    border: 3px solid rgb(238, 238, 238);
+    border-bottom: 3px solid rgb(123, 123, 123);
+    border-right: 3px solid rgb(123, 123, 123);
+}
